@@ -65,7 +65,7 @@ The notebooks must be run in numerical order, as each relies on artifacts from t
 | 3 | `03_prithvi_finetuning.ipynb` | `processed_data/`                | `checkpoints/prithvi_best.pt`, `results/prithvi_*.npy`, updated `all_results.json` 
 | 4 | `04_figures.ipynb`            | All saved artifacts above        | `results/fig*.png` 
 
-Total runtime: ~10 minutes for steps 1, 2, 4. Step 3 (Prithvi fine-tuning, 20 epochs) takes about 
+Total runtime: ~10 minutes for steps 1, 2, 4. Step 3 (Prithvi fine-tuning, 20 epochs) takes about ~30 minutes
 
 
 ### 4. Hardware
