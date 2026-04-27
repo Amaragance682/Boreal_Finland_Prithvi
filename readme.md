@@ -95,7 +95,8 @@ All five models converged on macro F1 between 0.122 and 0.137 despite very diffe
 
 ## Reproducing without JURECA
 Full reproduction outside JURECA requires re-downloading the four source Sentinel-2 scenes from the Copernicus Data Space Ecosystem and the CORINE 2018 raster from the copernicus Land Monitoring Service,
-then running the local checkpoint 1&2 notebooks to build the patch dataset before the final project notebooks can run. The pipeline also assumes a CUDA-capable blackwell GPU (RTX 5090). So i 
+then running the local checkpoint 1&2 notebooks to build the patch dataset before the final project notebooks can run. The pipeline also assumes a CUDA-capable blackwell GPU (RTX 5090).
+I don't reccomend running this pipeline outside JURECA
 
 
 
