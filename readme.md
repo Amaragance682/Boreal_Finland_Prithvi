@@ -80,7 +80,7 @@ The pipeline can run on any machine with a CUDA-capable GPU and the dependencies
 For testing-only purposes, an RTX 5090 was used during development to verify code correctness before deploying to JURECA. A consumer GPU is sufficient for the full pipeline given that the dataset is small (~20k training patches, 16-channel 3 × 3 patches).
 
 Full reproduction outside JURECA requires re-downloading the four source Sentinel-2 scenes from the Copernicus Data Space Ecosystem and the CORINE 2018 raster from the copernicus Land Monitoring Service,
-then running the local checkpoint 1&2 notebooks to build the patch dataset before the final project notebooks can run. The pipeline also assumes a CUDA-capable blackwell GPU (RTX 5090).
+then running the local checkpoint 2 notebook to build the patch dataset before the final project notebooks can run. The pipeline also assumes a CUDA-capable blackwell GPU (RTX 5090).
 I don't reccomend running this pipeline outside JURECA
 
 ## Key results
@@ -94,12 +94,6 @@ I don't reccomend running this pipeline outside JURECA
 | **Prithvi-EO-2.0 (fine-tuned)** | 0.324     | 0.137     |
 
 All five models converged on macro F1 between 0.122 and 0.137 despite very different architectures, suggesting an information-driven rather than model-capacity ceiling. Please look at the report for a more detailed discussion.
-
-
-## Reproducing without JURECA
-Full reproduction outside JURECA requires re-downloading the four source Sentinel-2 scenes from the Copernicus Data Space Ecosystem and the CORINE 2018 raster from the copernicus Land Monitoring Service,
-then running the local checkpoint 1&2 notebooks to build the patch dataset before the final project notebooks can run. The pipeline also assumes a CUDA-capable blackwell GPU (RTX 5090).
-I don't reccomend running this pipeline outside JURECA
 
 
 
